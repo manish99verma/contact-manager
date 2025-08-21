@@ -42,7 +42,7 @@ const EditContactDialog = ({ contact, onDismiss }) => {
         className="flex flex-col w-[70vw] sm:w-96 gap-6"
       >
         <h2 className="text-xl font-medium pb-3 text-center mb-2">
-          Add Contact
+          Edit Contact
         </h2>
         <LabeledInput
           label="Name"

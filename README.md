@@ -35,7 +35,7 @@ Each contact contains a **Name**, **Email**, and **Phone Number**.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/react-contact-manager.git
+git clone https://github.com/manish99verma/contact-manager.git
 cd react-contact-manager
 ```
 
@@ -52,13 +52,16 @@ npm start
 ```
 
 4. Open in browser:  
-   👉 http://localhost:3000
+   👉 http://localhost:5173
 
 ---
 
 ## 📸 Screenshots
 
-_Add screenshots of your app here (list, add form, edit modal, delete confirmation, etc.)._
+![ScreenShot1](./scrennshots/screenshot-1.png)
+![ScreenShot2](./scrennshots/screenshot-2.png)
+![ScreenShot3](./scrennshots/screenshot-3.png)
+![ScreenShot4](./scrennshots/screenshot-4.png)
 
 ---
 
@@ -82,44 +85,13 @@ _Add screenshots of your app here (list, add form, edit modal, delete confirmati
 
 ---
 
-## 🗂️ Project Structure
-
-```
-src/
- ├── components/
- │    ├── ContactForm.jsx       # Form for Add / Edit
- │    ├── ContactList.jsx       # List of contacts
- │    ├── ContactItem.jsx       # Single contact row
- │    ├── Modal.jsx             # Reusable modal component
- │
- ├── redux/
- │    ├── store.js              # Redux store config
- │    ├── contactsSlice.js      # Contacts reducer & actions
- │
- ├── utils/
- │    ├── validators.js         # Email & phone validation helpers
- │
- ├── App.jsx
- ├── index.js
-```
-
----
-
-## 🔒 Validation Rules
-
-- **Name** → must not be empty
-- **Email** → must match `/^[^\s@]+@[^\s@]+\.[^\s@]+$/`
-- **Phone** → must match `/^[+\d\s]+$/` (digits, spaces, + only)
-- **Duplicate Check** → No two contacts can have the same email or phone
-
----
-
 ## 🎯 Future Improvements
 
+- [ ] Authentication (user-specific contact storage)
+- [ ] Cloud sync
 - [ ] Search and filter contacts
 - [ ] Pagination for large contact lists
 - [ ] Import / Export contacts (CSV, JSON)
-- [ ] Authentication (user-specific contact storage)
 
 ---
 
