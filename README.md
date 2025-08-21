@@ -1,4 +1,4 @@
-# 📇 React Contact Manager App
+# 📇 React Contact Manager App [➡️Live](https://contact-manager-beta-seven.vercel.app/)
 
 A simple yet powerful **Contact Manager** built with **React** and **Redux**.  
 It supports adding, editing, deleting, and updating contacts with full form validation and duplicate checks.  
